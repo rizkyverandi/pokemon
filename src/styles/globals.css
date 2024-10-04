@@ -9,15 +9,30 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #383838;
     --foreground: #ededed;
   }
 }
 
+html,
 body {
+  margin: 0;
+  padding: 0;
+  min-width: 425px;
+  background-color: var(--background);
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1024px; /* Adjust as needed */
+  min-width: 320px;
+  margin: 0 auto; /* Center the container */
 }
 
 @layer utilities {
