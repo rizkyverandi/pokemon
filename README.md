@@ -25,3 +25,4 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/rizkyverandi/pokemon-2024.git
 cd pokemon-2024
 npm install
+npm run dev
