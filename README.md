@@ -1,8 +1,3 @@
----
-title: Managing Pokémon List State with RxJS
-description: A project to manage the state of a Pokémon list using RxJS.
----
-
 # Managing Pokémon List State with RxJS
 
 This project demonstrates how to use RxJS to manage the state of a Pokémon list in a reactive way. The RxJS library provides powerful tools for handling asynchronous data streams, making it easier to manage dynamic updates to the Pokémon list.
